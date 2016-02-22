@@ -1,0 +1,59 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+
+body{
+	background-color: black;
+}
+
+/* Site header */
+#site-header{
+	background-color: black;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+/* Gallery */
+
+.gallery img{
+	width: 100%;
+	margin-bottom: 35px;
+	opacity: 0.6;
+
+	-webkit-transition:opacity 500ms ease;
+	transition:opacity 500ms ease;
+
+}
+
+.gallery img:hover{
+	opacity: 1;
+
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+/* About section */
+
+.about .about-image{
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.about .about-image img{
+
+	-webkit-transition:transform 500ms ease;
+	transition:transform 500ms ease;
+}
+
+.about .about-image img:hover{
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+audio{
+	float: right;
+	margin-bottom: 0;
+}
